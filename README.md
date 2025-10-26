@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This agentic workflow summarizes upliftment projects from civic PDFs using LangChain tools and agents.
 
 
@@ -14,29 +15,28 @@ Loads civic PDFs
 
 
 
-Retrieves relevant chunks using keyword match
+# agentic-workflows-civic
 
+Modular agentic AI workflows designed to automate civic data tasks using LangChain, OpenAI, and custom toolchains. This repo builds on a working RAG pipeline and introduces multi-step agents with memory, planning, and tool use — enabling autonomous execution of real-world goals like generating reports, summarizing municipal budgets, and surfacing ward-level insights.
 
+---
 
-Summarizes using GPT
+## What It Does
 
+- Retrieves relevant chunks using keyword match  
+- Summarizes using GPT  
+- Outputs a clean civic report  
 
+---
 
-Outputs a clean report
+## Stack
 
+- LangChain v1.0+  
+- Streamlit UI  
+- PDF chunking and retrieval  
+- Tool-decorated agent  
 
+---
 
-Stack LangChain v1.0+ Streamlit UI PDF chunking and retrieval Tool-decorated agent
-
-
-
-Repo Structure agents/civic\_summary\_agent.py tools/file\_reader.py tools/retriever.py ui/streamlit\_app.py data/sample\_pdfs/
-
-
-
-Run Locally streamlit run ui/streamlit\_app.py
-
-
-
-Portfolio Signal Agentic orchestration Civic data use case
+## Repo Structure
 
